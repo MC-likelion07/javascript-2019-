@@ -6,7 +6,8 @@ const num = 5; //숫자(Number)
 console.log(notNum);
 console.log(num);
 
-// Boolean - True or False , lowercase, (이진법 : true는 1, false는 0, boolean은 텍스트(문자열)가 아님)
+// Boolean - True or False , lowercase,
+// (이진법 : true는 1, false는 0, boolean은 텍스트(문자열)가 아님)
 
 const T = true;
 const F = false;

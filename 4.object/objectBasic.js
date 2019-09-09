@@ -1,5 +1,5 @@
-// object에는 각 value에 이름을 줄 수 있다.
-// 파이썬의 딕셔너리와 유사
+// object에는 각 value에 이름(key)을 줄 수 있다.
+// 파이썬의 딕셔너리와 유사 (key-value 형태의 property를 저장)
 const emptyObject = {}; // 빈 객체 생성
 
 const likeLion = {
@@ -18,6 +18,10 @@ const likeLion = {
 
 // console.log(likeLion);
 console.log(likeLion.op);
+
+//마침표(.)를 사용하여 프로퍼티의 Key를 명시하면, Value를 읽을 수 있다.
+//게다가 이를 활용하여 변경할 수도 있고, 변경할 내용이 없으면 자동으로 신규 생성된다.
+
 likeLion.op = 3; // const로 선언된 변수의 객체의 항목을 바꾸는 것은 가능.
 console.log(likeLion.op);
 
