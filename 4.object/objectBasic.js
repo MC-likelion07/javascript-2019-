@@ -8,21 +8,23 @@ const likeLion = {
   numMembers: 24,
   averageOfStudentID: 2016,
   duHeeLee: true,
-  memFront: ["a", "b", "c", "d", "e"], // 객체 안에 배열을 생성해도 됨.
-  //object들의 array
+  opName: ["윤창식", "김보연", "이민철", "정아현", "박종현", "구경민"],
+  // 객체 안에 배열을 생성해도 됨.
+
   opInfo: [
     { name: "mc", age: 22, dept: "isToSwe", gf: false },
     { name: "yk", age: 27, dept: "agecPlusCs", gf: "iDonKnow" }
-  ]
+  ] // 객체 안의 배열 안의 객체
 };
 
+// console.log(likeLion.opName);
+
 // console.log(likeLion);
-console.log(likeLion.op);
 
 //마침표(.)를 사용하여 프로퍼티의 Key를 명시하면, Value를 읽을 수 있다.
 //게다가 이를 활용하여 변경할 수도 있고, 변경할 내용이 없으면 자동으로 신규 생성된다.
 
-likeLion.op = 3; // const로 선언된 변수의 객체의 항목을 바꾸는 것은 가능.
-console.log(likeLion.op);
+//likeLion.op = 3; // const로 선언된 변수의 객체의 항목을 바꾸는 것은 가능.
+// console.log(likeLion.op);
 
-console.log(likeLion.opInfo[1].name);
+// console.log(likeLion.opInfo[1].name);
