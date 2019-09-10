@@ -17,14 +17,16 @@ const likeLion = {
   ] // 객체 안의 배열 안의 객체
 };
 
-// console.log(likeLion.opName);
-
 // console.log(likeLion);
+
+// console.log(likeLion.opName);
 
 //마침표(.)를 사용하여 프로퍼티의 Key를 명시하면, Value를 읽을 수 있다.
 //이를 활용하여 변경할 수도 있고, 변경할 내용이 없으면 자동으로 신규 생성된다.
 
-//likeLion.op = 3; // const로 선언된 변수의 객체의 항목을 바꾸는 것은 가능.
+likeLion.op = 3;
 // console.log(likeLion.op);
+// const로 선언된 변수 자체에 새로운 값을 할당하는 것은 불가능
+// 단, const 변수로 선언된 객체의 항목을 바꾸는 것은 가능.
 
-// console.log(likeLion.opInfo[1].name);
+console.log(likeLion.opInfo[1].age);

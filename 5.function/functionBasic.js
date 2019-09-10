@@ -1,5 +1,5 @@
 function whoAreYou(yourName, age) {
-  //문자열과 변수를 같이 쓸 때
+  //문자열과 변수를 같이 쓸 때(,는 띄어쓰기 자동으로 됨. 반면 +는 안됨.)
   console.log("Hello my name is", yourName, "I'm", age, "years old.");
   console.log("Hello my name is " + yourName + " I'm " + age + " years old.");
   console.log(`Hello my name is ${yourName} I'm ${age} years old.`); //javascript 백틱
