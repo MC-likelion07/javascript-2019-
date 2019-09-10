@@ -4,6 +4,6 @@ const emptyArray = []; //빈 배열 생성
 
 const arrayMembers = ["a", 2, true, 99.9, "멋사"];
 
-// console.log(arrayMembers);
+console.log(arrayMembers);
 
-console.log(arrayMembers[1]);
+console.log(arrayMembers[0]);

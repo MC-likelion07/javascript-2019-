@@ -17,9 +17,9 @@ const likeLion = {
   ] // 객체 안의 배열 안의 객체
 };
 
-// console.log(likeLion);
+//console.log(likeLion);
 
-// console.log(likeLion.opName);
+//console.log(likeLion.opName);
 
 //마침표(.)를 사용하여 프로퍼티의 Key를 명시하면, Value를 읽을 수 있다.
 //이를 활용하여 변경할 수도 있고, 변경할 내용이 없으면 자동으로 신규 생성된다.
