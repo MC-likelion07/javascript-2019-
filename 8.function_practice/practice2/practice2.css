@@ -1,0 +1,12 @@
+.btn {
+  cursor: pointer;
+}
+
+h1 {
+  color: "rgb(255, 123, 0)";
+  transition: color 0.5s ease-in-out;
+}
+
+.clicked {
+  color: "rgb(9, 132, 227)";
+}

@@ -14,23 +14,25 @@ function handleResize() {
 // call the function handleResize when you needed.
 // handleResize()라고 쓰면 해당 함수가 자동적으로 호출된다.(바로 실행된다.)
 // 단, handleResize라고 쓰면 윈도우 사이즈가 변경될 때 해당 함수를 호출한다.
+
 window.addEventListener("resize", handleResize);
 
 //=================================================================================================
 // 아래의 event는 자바스크립트로부터 온 것이다.
 // 이벤트를 다룰 함수를 만들 때마다 자바스크립트는 자동적으로 함수를 객체에 붙인다.
 // event가 발생할때마다 이벤트의 객체가 호출된다.
+
 function handleResize(event) {
   console.log(event);
 }
 window.addEventListener("resize", handleResize);
 
 //=================================================================================================
-//누군가 title을 클릭할 때마다 이것의 색깔을 파란색으로 바꾼다.
+//누군가 title을 클릭할 때 이것의 색깔을 빨간색으로 바꾼다.
 const title = document.querySelector("#title");
 
 function handleClick() {
-  title.style.color = "blue";
+  title.style.color = "red";
 }
 
 title.addEventListener("click", handleClick);
