@@ -1,4 +1,4 @@
-// 1. 자바스크립트 기본 표현법 / block은 js의 표현법
+// 1. 자바스크립트 기본 표현법 , block은 js의 표현법
 
 if (condition) {
   block;
