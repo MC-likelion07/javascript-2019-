@@ -10,7 +10,7 @@ class Lion(Animal):
         super().__init__(leg)   
         self.name = name 
         # self는 전달된 객체
-        # self.name의 name은 객체변수(인스턴스 변수)
+        # self.name은 인스턴스 변수
     def getName(self):
         print("내 이름은 " + self.name)
 
