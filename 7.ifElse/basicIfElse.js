@@ -1,20 +1,20 @@
 // 1. 자바스크립트 기본 표현법 , block은 js의 표현법
 
-if (condition) {
-  block;
-} else {
-  block;
-}
+// if (condition) {
+//   block;
+// } else {
+//   block;
+// }
 
 // 2. if - else if - else
 
 if ("7" === 7) {
   console.log("string is not equal to number");
 } else if ("10" === "10") {
-  // ===는 양변의 값이 일치해야한다.
+  // ===는 양변의 값이 일치해야한다.(자료형과 값 모두 일치)
   console.log("They are the same.");
 } else if ("8" == 8) {
-  // ==는 문자열과 숫자를 같은 것으로 판단하는 연산자.
+  // ==는 문자열과 숫자를 같은 것으로 판단하는 연산자.(자료형과 상관 없이 값이 같으면 같다고 판단한다.)
   console.log("They are the same, too.");
 } else {
   console.log("incorrect");

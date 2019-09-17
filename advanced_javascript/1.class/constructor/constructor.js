@@ -3,7 +3,7 @@ class Lion {
     this.name = name;
     this.age = age;
     //생성자 함수 내의 this 는
-    //new를 통해 만들어진 새로운 변수가 된다.
+    //new를 통해 만들어진 새로운 변수가 된다.(인스턴스 변수)
   }
   getName() {
     console.log("내 이름은 " + this.name);

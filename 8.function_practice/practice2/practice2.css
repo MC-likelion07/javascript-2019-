@@ -4,7 +4,7 @@
 
 h1 {
   display: inline;
-  color: "rgb(255, 123, 0)";
+  /*color: "rgb(255, 123, 0)";*/
   transition: color 0.5s ease-in-out;
   font-size: 100px;
 }

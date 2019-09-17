@@ -9,6 +9,7 @@
 // "resize" 뒤에는 함수이름을 적어준다.
 // handleResize()라고 쓰면 해당 함수가 자동적으로 호출된다.(바로 실행된다.)
 // 단, handleResize라고 쓰면 윈도우 사이즈가 변경될 때 해당 함수를 호출한다.
+// window 객체 안에 addEventListener 메소드를
 
 function handleResize() {
   console.log("I have been resized");
@@ -28,6 +29,7 @@ window.addEventListener("resize", handleResize);
 
 //=================================================================================================
 //누군가 title을 클릭할 때 이것의 색깔을 빨간색으로 바꾼다.
+
 const title = document.querySelector("#title");
 
 function handleClick() {
